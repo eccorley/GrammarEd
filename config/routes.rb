@@ -1,6 +1,17 @@
 Rails.application.routes.draw do
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
+  resources :units do
+    resources :questions do
+      member do
+        post 'answer'
+      end
+      member do
+        post 'hint'
+      end
+    end
+  end
+
   root "static_pages#index"
   match '/signup', to: 'users#new', via: 'get'
   match '/signin', to: 'sessions#new', via: 'get'

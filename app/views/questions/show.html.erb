@@ -1,0 +1,26 @@
+<h1>Unit <%= params[:unit_id] %>: Question <%= @question.id %></h1>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<h4 class="question-prompt"><%= simple_format(@question.prompt) %></h4>
+		<hr>
+		<%= form_for @question, :url => {:action => "answer"}, :method => "post" do |q| %>
+			<%= radio_button_tag :answer, 1 %>
+			<%= label :answer, 1, @question.answer1 %>
+
+			<%= radio_button_tag :answer, 2 %>
+			<%= label :answer, 2, @question.answer2 %>
+
+			<%= radio_button_tag :answer, 3 %>
+			<%= label :answer, 3, @question.answer3 %>
+
+			<%= radio_button_tag :answer, 4 %>
+			<%= label :answer, 4, @question.answer4 %>
+
+			<hr>
+			<div class="answer-submit">
+				<%= submit_tag "Submit Answer", class: "btn btn-large btn-primary" %>
+			</div>
+		<% end %>
+		<div id="hint-button"><%= button_to "Get a Hint", class: "btn btn-large", action: "hint" %></div>
+	</div>
+</div>

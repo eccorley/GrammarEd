@@ -79,7 +79,7 @@ Question.create!({unit_id: 1,
 									answer2: "principal",
 									answer3: "either",
 									answer4: "neither",
-									correct_answer: 1,
+									correct_answer: 2,
 									hint: "What role is this word playing? Is it a noun or a modifier?"})
 
 Question.create!({unit_id: 2,

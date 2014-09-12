@@ -1,8 +1,40 @@
 @import "bootstrap";
 
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
 /* --------- Variables, Mixins, etc. --------- */
 
 $grayMediumLight: #eaeaea;
+
+$bluePurple: #3f3075;
+$bluePurpleLighter: #605293;
+$bluePurpleLightest: #877CB0;
+$bluePurpleDarker: #251758;
+$bluePurpleDarkest: #12073B;
+
+$purple: #562A72;
+$purpleLighter: #744B8E;
+$purpleLightest: #9675AB;
+$purpleDarker: #3B1255;
+$purpledarkest: #240339;
+
+$blueGreen: #2D4471;
+$blueGreenLighter: #4E638E;
+$blueGreenLightest: #7788AA;
+$blueGreenDarker: #152B55;
+$blueGreenDarkest: #061739;
+
+$green: lighten(#226666, 7.5%);
+$greenLighter: #407F7F;
+$greenLightest: #669999;
+$greenDarker: lighten(#0D4D4D, 7.5%);
+$greenDarkest: #003333;
+
+$blue: #2E4272;
+$blueLighter: #4F628E;
+$blueLightest: #7887AB;
+$blueDarker: #162955;
+$blueDarkest: #061539;
 
 @mixin box_sizing {
 	-moz-box-sizing: border-box;
@@ -14,10 +46,7 @@ $grayMediumLight: #eaeaea;
 
 html {
 	overflow-y: scroll;
-}
-
-body {
-	padding-top: 75px;
+	font-family: 'Open Sans'; 
 }
 
 section {
@@ -38,6 +67,32 @@ textarea {
 
 li {
 	list-style: none;
+}
+
+.btn-primary {
+	color: $grayMediumLight;
+	background-color: $green;
+	border: 2px solid darken($green, 2%);
+	&:hover, &:focus, &:active {
+		background-color: $greenDarker;
+		border-color: $greenDarker;
+	}
+}
+
+#main-content {
+	margin-top: 120px;
+}
+
+.alert {
+	margin-top: -35px;
+}
+
+hr {
+	margin: 35px 0;
+}
+
+* {
+	border-radius: 0px !important;
 }
 
 /* --------- Typography --------- */
@@ -63,22 +118,41 @@ h2 {
 }
 
 p {
-	font-size: 1.1em;
-	line-height: 1.7em;
+	font-family: 'Open Sans';
+	font-size: 1.175em;
+	line-height: 2.1em;
+}
+
+a {
+	color: lighten($blueGreen, 15%);
+	&:hover, &:active, &:focus {
+		color: $blueGreenDarker;
+	}
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
 }
 
 /* --------- Header --------- */
 
 #logo {
 	float: left;
-	margin-right: 10px;
-	font-size: 1.7em;
-	color: white;
+	font-size: 1.8em;
+	padding: 15px;
+	background-color: $blueLighter;
+	color: $blueDarkest;
 	text-transform: uppercase;
 	letter-spacing: -1px;
-	padding-top: 9px;
 	font-weight: bold;
 	line-height: 1;
+	border-bottom: 10px ridge $bluePurple;
+	border-right: 10px ridge $bluePurple;
+	border-left: 10px ridge $bluePurple;
 	&:hover {
 		color: white;
 		text-decoration: none;
@@ -86,7 +160,43 @@ p {
 }
 
 .nav {
-	margin-top: 5px;
+	margin-top: 10px;
+}
+
+.nav li a {
+	font-size: 1.175em;
+}
+
+.nav li a:hover, .nav li a:focus {
+	background-color: white;
+	color: darken($blueLighter, 25%);
+}
+
+/* --------- Footer --------- */
+
+footer {
+	@extend .col-md-8;
+	@extend .col-md-offset-2;
+	margin-top: 75px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: $gray-light;
+	a {
+		color: $gray;
+		&:hover {
+		}
+	}
+	small {
+		float: left;
+	}
+	ul {
+		float: right;
+		list-style: none;
+		li {
+			float: left;
+			margin-left: 10px;
+		}
+	}
 }
 
 /* --------- Home --------- */
@@ -94,7 +204,6 @@ p {
 .jumbotron {
 	margin: 0 auto;
 	width: 80%;
-	border-radius: 5px;
 }
 
 h3 {
@@ -144,32 +253,56 @@ input {
 	margin-bottom: 30px;
 }
 
+.example {
+	display: none;
+	margin-left: -25px;
+}
+
+.example-intro, .example-sentence, .example-corrected,
+.example-explanation, .example-corrected-explanation {
+	margin-bottom: 30px;
+}
+
+.hide-button {
+	display: none;
+}
+
+.example-button {
+	display: inline-block;
+	margin-left: 0;
+}
+
+.unit-content {
+	margin-bottom: 50px;
+}
+
+section {
+	overflow: visible;
+	margin-bottom: 40px;
+}
+
 /* --------- Questions --------- */
+
+.question-label {
+	margin-bottom: 15px;
+}
 
 .question-prompt {
 	text-align: center;
 }
 
 .question-prompt p:nth-of-type(2) {
-	margin: 25px 50px;
-	margin-bottom: 35px;
+	margin: 15px 50px;
+	margin-bottom: 15px;
 }
 
 form {
 	font-size: 1.1em;
 }
 
-input[type="radio"]:first-of-type, label:first-of-type {
-	margin-top: 25px;
-}
-
 input[type="radio"], label {
 	display: inline-block;
-	margin-top: 35px;
-}
-
-input[type="radio"]:last-of-type, label:last-of-type {
-	margin-bottom: 25px;
+	margin-top: 20px;
 }
 
 input[type="radio"] {

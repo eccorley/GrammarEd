@@ -1,6 +1,8 @@
 <h1>Unit <%= @unit.id %>. <%= @unit.name %></h1>
-<div class="row">
+<div class="row unit-content">
 	<div class="col-md-8 col-md-offset-2">
 		<p><%= @unit.description %></p>
+		<hr>
+		<%= render "examples#{ @unit.id }" %>
 	</div>
 </div>

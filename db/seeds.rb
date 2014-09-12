@@ -7,20 +7,26 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Unit.create!({
+							name: "Commonly Confused Words",
+							description: "There are many words in the English language that can be easily confused with
+							others either do to the way they sound or the way they are spelled. In this unit we will
+							review some of the most commonly confused words and practice their proper usage."})
+
+Unit.create!({
 							name: "Sentence Fragments",
 							description: "Sentence fragments are phrases or combinations of phrases
 							that fail to meet the requirements to be complete sentences. Complete sentences
 							contain a main clause with both a subject and a verb and express a complete thought.
-							Sentence fragments are often dependent clauses that have been seperated from the main
-							clause they depend on."})
+							In this unit we will review the different types of sentence fragments and the best
+							ways to fix them."})
 
 Unit.create!({
 							name: "Run-on Sentences",
 							description: "Run-on sentences, sometimes known as fused sentences, happen when two
 							or more independent clauses are joined together. Common errors that cause run-on sentences
-							are failure to use a comma with a coordinating conjunction (and, but, for, or, nor, yet, so, etc),
-							using a comma by itself to join two sentences (known as the 'Comma Splice'), or using transition
-							words (however, nonethless, moreover, etc.) with no punctuation or commas instead of semicolons."})
+							are failure to use a comma with a coordinating conjunction, using a comma by itself to join two
+							sentences (known as the 'Comma Splice'), or using transition words (however, nonethless,
+							moreover, etc.) with no punctuation or commas instead of semicolons."})
 
 Unit.create!({
 							name: "Comma Splices",
@@ -32,6 +38,51 @@ Unit.create!({
 							a coordinating conjunction between the sentences, or adding a subordinating conjunction
 							to one of the clauses."})
 Question.create!({unit_id: 1,
+									prompt: "Choose the correct word to complete the following sentence:
+													'The decision to operate had several _______.'",
+									answer1: "effects",
+									answer2: "affects",
+									answer3: "either",
+									answer4: "neither",
+									correct_answer: 1,
+									hint: "Remember, affect is a verb meaning 'to influence' and effect is a noun
+										   that means 'result'. Which of these makes sense in this sentence?"})
+
+Question.create!({unit_id: 1,
+									prompt: "Choose the correct word to complete the following sentence:
+													 'It is the nurse's job to ________ that the proper
+													  documentation is made for each patient.'",
+									answer1: "insure",
+									answer2: "assure",
+									answer3: "ensure",
+									answer4: "none of the above",
+									correct_answer: 3,
+									hint: "To insure is 'to protect against loss', to assure is 'to give someone confidence',
+										   and to ensure is 'to make certain'. Which of these is this sentence saying the 
+										   nurse is doing?"})
+
+Question.create!({unit_id: 1,
+									prompt: "Choose the correct word to complete the following sentence:
+													 'Nurses must be able to ________ responsibility for their
+													 role in patient care.'",
+									answer1: "except",
+									answer2: "accept",
+									answer3: "either",
+									answer4: "neither",
+									correct_answer: 2,
+									hint: "What must the nurse be able to do, exclude their responsibility in patient care or 
+									recieve their responsiblity in patient care?"})
+
+Question.create!({unit_id: 1,
+									prompt: "Overall quality of care should be the ________ aim of all healthcare practitioners.",
+									answer1: "principle",
+									answer2: "principal",
+									answer3: "either",
+									answer4: "neither",
+									correct_answer: 1,
+									hint: "What role is this word playing? Is it a noun or a modifier?"})
+
+Question.create!({unit_id: 2,
 									prompt: "Correct the following sentence fragment:
 													 'Cleaned out the trashcan.'",
 									answer1: "Cleaned out the trashcan under the sink.",
@@ -43,7 +94,7 @@ Question.create!({unit_id: 1,
 												 They need a subject and a verb and must express a complete thought.
 												 Do any of these feel like they are missing something or pointing to
 												 another sentence?"})
-Question.create!({unit_id: 1,
+Question.create!({unit_id: 2,
 									prompt: "What makes the following a sentence fragment?
 													 'While she looked for the magazine.",
 									answer1: "Missing Subject",
@@ -55,7 +106,7 @@ Question.create!({unit_id: 1,
 									relating to the subject. A dependent clause is a phrase that relies on another
 									phrase to express a complete thought. Does the given phrase meet all of these
 									requirements? Does it express a complete thought?"})
-Question.create!({unit_id: 1,
+Question.create!({unit_id: 2,
 									prompt: "What makes the following a sentence fragment?
 													 'The big green bottle under the sink.'",
 									answer1: "Missing Subject",

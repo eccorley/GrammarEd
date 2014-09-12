@@ -1,11 +1,12 @@
 class QuestionsController < ApplicationController
+	before_action :signed_in_user, only: [:show]
 
 	def index
 		@questions = Question.where("unit_id = ?", params[:unit_id])
 	end
 
 	def show
-		@question = Question.find(params[:id])
+		redirect_to units_path unless @question = Question.where("unit_id = ? AND id = ?", params[:unit_id], params[:id])[0]
 	end
 
 	def answer

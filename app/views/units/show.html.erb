@@ -4,5 +4,7 @@
 		<p><%= @unit.description %></p>
 		<hr>
 		<%= render "examples#{ @unit.id }" %>
+		<hr>
+		<%= link_to "Move on to Interactive Questions", unit_question_path(:unit_position => 1, :unit_id => @unit.id), class: "btn btn-large btn-primary", id: "question-button" %>
 	</div>
 </div>

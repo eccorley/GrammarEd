@@ -7,7 +7,7 @@
 					<li>
 						<%= link_to unit_path(u.id) do %><h3><%= u.id %>. <%= u.name %></h3><% end %>
 						<p id="unit-description"><%= u.description %></p>
-						<%= link_to "Interactive Questions", unit_question_path(:id => 1, :unit_id => u.id), class: "btn btn-large btn-primary", id: "question-button" %>
+						<%= link_to "Interactive Questions", unit_question_path(:unit_position => 1, :unit_id => u.id), class: "btn btn-large btn-primary", id: "question-button" %>
 					</li>
 				</section>
 			<% end %>

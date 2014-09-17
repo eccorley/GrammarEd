@@ -37,6 +37,37 @@ Unit.create!({
 							be addressed by either breaking the compound sentence into seperate sentences, adding
 							a coordinating conjunction between the sentences, or adding a subordinating conjunction
 							to one of the clauses."})
+Unit.create!({
+							name: "Faulty Parallelism",
+							description: "Faulty parallelism occurs when pieces of a sentence that have similar meanings
+							are structured differently from each other. It is important for the balance of a sentence
+							to maintain parallel structure between like parts. Faulty parallelism often occurs with items
+							in a list, items joined by conjunctions, and items being compared or contrasted. Parallelism is
+							easiest to understand with examples, so go through the following examples carefully."})
+Unit.create!({
+							name: "Pronoun Agreement",
+							description: "Some of the most common grammatical erros have to do with pronoun agreement. Every
+							pronoun has a noun it refers to, known as its antecedent, and to be grammatically correct the pronoun
+							must agree with the noun in terms of its number (singular or plural). Typical errors in pronoun
+							agreement occur when plural pronouns such as they, them, and their are used with singular nouns."})
+Unit.create!({
+							name: "Irregular Plurals",
+							description: ""})
+Unit.create!({
+							name: "Comma Use",
+							description: ""})
+Unit.create!({
+							name: "Semicolon Use",
+							description: ""})
+Unit.create!({
+							name: "Colon Use",
+							description: ""})
+Unit.create!({
+							name: "Apostrophe Use",
+							description: ""})
+Unit.create!({
+							name: "Awkward Construction",
+							description: ""})
 Question.create!({unit_id: 1,
 									prompt: "Choose the correct word to complete the following sentence:
 													'The decision to operate had several _______.'",
@@ -46,7 +77,8 @@ Question.create!({unit_id: 1,
 									answer4: "neither",
 									correct_answer: 1,
 									hint: "Remember, affect is a verb meaning 'to influence' and effect is a noun
-										   that means 'result'. Which of these makes sense in this sentence?"})
+										   that means 'result'. Which of these makes sense in this sentence?",
+									unit_position: 1})
 
 Question.create!({unit_id: 1,
 									prompt: "Choose the correct word to complete the following sentence:
@@ -59,7 +91,8 @@ Question.create!({unit_id: 1,
 									correct_answer: 3,
 									hint: "To insure is 'to protect against loss', to assure is 'to give someone confidence',
 										   and to ensure is 'to make certain'. Which of these is this sentence saying the 
-										   nurse is doing?"})
+										   nurse is doing?",
+									unit_position: 2})
 
 Question.create!({unit_id: 1,
 									prompt: "Choose the correct word to complete the following sentence:
@@ -71,7 +104,8 @@ Question.create!({unit_id: 1,
 									answer4: "neither",
 									correct_answer: 2,
 									hint: "What must the nurse be able to do, exclude their responsibility in patient care or 
-									recieve their responsiblity in patient care?"})
+									recieve their responsiblity in patient care?",
+									unit_position: 3})
 
 Question.create!({unit_id: 1,
 									prompt: "Overall quality of care should be the ________ aim of all healthcare practitioners.",
@@ -80,7 +114,8 @@ Question.create!({unit_id: 1,
 									answer3: "either",
 									answer4: "neither",
 									correct_answer: 2,
-									hint: "What role is this word playing? Is it a noun or a modifier?"})
+									hint: "What role is this word playing? Is it a noun or a modifier?",
+									unit_position: 4})
 
 Question.create!({unit_id: 2,
 									prompt: "Correct the following sentence fragment:
@@ -93,7 +128,8 @@ Question.create!({unit_id: 2,
 									hint: "Complete sentences must be able to stand on their own.
 												 They need a subject and a verb and must express a complete thought.
 												 Do any of these feel like they are missing something or pointing to
-												 another sentence?"})
+												 another sentence?",
+									unit_position: 1})
 Question.create!({unit_id: 2,
 									prompt: "What makes the following a sentence fragment?
 													 'While she looked for the magazine.",
@@ -105,7 +141,8 @@ Question.create!({unit_id: 2,
 									hint: "A subject is who or what a sentence is about and a verb is an action
 									relating to the subject. A dependent clause is a phrase that relies on another
 									phrase to express a complete thought. Does the given phrase meet all of these
-									requirements? Does it express a complete thought?"})
+									requirements? Does it express a complete thought?",
+									unit_position: 2})
 Question.create!({unit_id: 2,
 									prompt: "What makes the following a sentence fragment?
 													 'The big green bottle under the sink.'",
@@ -117,4 +154,5 @@ Question.create!({unit_id: 2,
 									hint: "Complete sentences must be able to stand on their own.
 												 They need a subject and a verb and must express a complete thought.
 												 What is the subject of this sentence? What is the subject doing?
-												 Which of these questions can you not answer?"})
+												 Which of these questions can you not answer?",
+									unit_position: 3})

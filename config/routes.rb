@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
   resources :units do
-    resources :questions do
+    resources :questions, param: :unit_position do
       member do
         post 'answer'
       end

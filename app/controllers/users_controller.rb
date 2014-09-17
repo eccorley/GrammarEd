@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-	before_action :signed_in_user, only: [:edit, :update]
-	before_action :correct_user, 	 only: [:edit, :update]
+	before_action :signed_in_user, only: [:edit, :update, :show]
+	before_action :correct_user, 	 only: [:edit, :update, :show]
 
   def new
   	@user = User.new
@@ -8,6 +8,10 @@ class UsersController < ApplicationController
 
   def show
   	@user = User.find(params[:id])
+    @total_progress = (@user.completions.count.to_f / Question.all.count.to_f) * 100
+    @unit1_progress = (@user.completions.where("unit_id = ?", 1).count.to_f / Question.where("unit_id = ?", 1).count.to_f) * 100
+    @unit2_progress = (@user.completions.where("unit_id = ?", 2).count.to_f / Question.where("unit_id = ?", 2).count.to_f) * 100
+    @unit3_progress = (@user.completions.where("unit_id = ?", 3).count.to_f / Question.where("unit_id = ?", 3).count.to_f) * 100
   end
 
   def create

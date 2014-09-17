@@ -1,4 +1,7 @@
 class User < ActiveRecord::Base
+	has_many :completions
+	has_many :questions, through: :completions
+	has_many :units, through: :completions
 
 	VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 

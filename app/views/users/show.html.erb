@@ -3,7 +3,7 @@
 <div class="col-md-8 col-md-offset-2">
 <h3>Course Progress</h3>
 <div class="progress">
-  <div id="total-progress-bar" class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+  <div id="total-progress-bar" class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="<%= @total_progress %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= @total_progress %>%">
     <span class="sr-only">40% Complete (success)</span>
   </div>
 </div>
@@ -11,7 +11,7 @@
 <section>
 	<h4>Unit 1: Confused Words</h4>
 	<div class="progress">
- 		<div id="unit-1-progress-bar" class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+    <div id="total-progress-bar" class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="<%= @unit1_progress %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= @unit1_progress %>%">
     		<span class="sr-only">60% Complete (success)</span>
   		</div>
 	</div>
@@ -20,7 +20,7 @@
 <section>
 	<h4>Unit 2: Sentence Fragments</h4>
 	<div class="progress">
-  		<div id="unit-2-progress-bar" class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+  		<div id="unit-2-progress-bar" class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="<%= @unit2_progress %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= @unit2_progress %>%">
     		<span class="sr-only">40% Complete (success)</span>
   		</div>
 	</div>
@@ -29,7 +29,7 @@
 <section>
 	<h4>Unit 3: Run-on Sentences</h4>
 	<div class="progress">
-  		<div id="unit-3-progress-bar" class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+  		<div id="unit-3-progress-bar" class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="<%= @unit3_progress %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= @unit3_progress %>%">
     		<span class="sr-only">30% Complete (success)</span>
   		</div>
 	</div>

@@ -1,5 +1,5 @@
 class QuestionsController < ApplicationController
-	before_action :signed_in_user, only: [:show]
+	before_action :signed_in_user, only: [:show, :completion]
 
 	def index
 		@questions = Question.where("unit_id = ?", params[:unit_id])
@@ -11,9 +11,15 @@ class QuestionsController < ApplicationController
 
 	def answer
 		@question = Question.where("unit_id = ? AND unit_position = ?", params[:unit_id], params[:unit_position])[0]
+		@unit = Unit.find(params[:unit_id])
 		if (params[:answer].to_i == @question.correct_answer)
 			flash[:success] = "Correct! Way to go!"
-			redirect_to unit_question_path(:unit_position => (@question.unit_position + 1), :unit_id => @question.unit_id)
+			if (!current_user.completions.where("user_id = ? AND question_id = ?", current_user.id, @question.id)[0])
+				current_user.completions.create(question_id: @question.id, unit_id: @unit.id)
+				redirect_to unit_question_path(:unit_position => (@question.unit_position + 1), :unit_id => @question.unit_id)
+			else
+				redirect_to unit_question_path(:unit_position => (@question.unit_position + 1), :unit_id => @question.unit_id)
+			end
 		else
 			flash[:danger] = "Incorrect! Maybe try a hint?"
 			redirect_to unit_question_path(:unit_position => @question.unit_position, :unit_id => @question.unit_id)

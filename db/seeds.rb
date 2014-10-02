@@ -9,65 +9,83 @@
 Unit.create!({
 							name: "Commonly Confused Words",
 							description: "There are many words in the English language that can be easily confused with
-							others either do to the way they sound or the way they are spelled. In this unit we will
-							review some of the most commonly confused words and practice their proper usage."})
+										  others either do to the way they sound or the way they are spelled. In this unit we will
+										  review some of the most commonly confused words and practice their proper usage."})
 
 Unit.create!({
 							name: "Sentence Fragments",
 							description: "Sentence fragments are phrases or combinations of phrases
-							that fail to meet the requirements to be complete sentences. Complete sentences
-							contain a main clause with both a subject and a verb and express a complete thought.
-							In this unit we will review the different types of sentence fragments and the best
-							ways to fix them."})
+										  that fail to meet the requirements to be complete sentences. Complete sentences
+										  contain a main clause with both a subject and a verb and express a complete thought.
+										  In this unit we will review the different types of sentence fragments and the best
+										  ways to fix them."})
 
 Unit.create!({
 							name: "Run-on Sentences",
 							description: "Run-on sentences, sometimes known as fused sentences, happen when two
-							or more independent clauses are joined together. Common errors that cause run-on sentences
-							are failure to use a comma with a coordinating conjunction, using a comma by itself to join two
-							sentences (known as the 'Comma Splice'), or using transition words (however, nonethless,
-							moreover, etc.) with no punctuation or commas instead of semicolons."})
+										  or more independent clauses are joined together. Common errors that cause run-on sentences
+										  are failure to use a comma with a coordinating conjunction, using a comma by itself to join two
+										  sentences (known as the 'Comma Splice'), or using transition words (however, nonethless,
+										  moreover, etc.) with no punctuation or commas instead of semicolons."})
 
 Unit.create!({
 							name: "Comma Splices",
 							description: "Comma splices are a very common form of run-on sentences. The comma 
-							is one of the most widely used punctuation marks, and often the rules that govern 
-							its usage are forgotten and it is used to represent a pause in the writer's thinking.
-							Comma splices are when two independent clauses are joined by a comma alone. They can
-							be addressed by either breaking the compound sentence into seperate sentences, adding
-							a coordinating conjunction between the sentences, or adding a subordinating conjunction
-							to one of the clauses."})
+										  is one of the most widely used punctuation marks, and often the rules that govern 
+										  its usage are forgotten and it is used to represent a pause in the writer's thinking.
+										  Comma splices are when two independent clauses are joined by a comma alone. They can
+										  be addressed by either breaking the compound sentence into seperate sentences, adding
+										  a coordinating conjunction between the sentences, or adding a subordinating conjunction
+										  to one of the clauses."})
 Unit.create!({
 							name: "Faulty Parallelism",
 							description: "Faulty parallelism occurs when pieces of a sentence that have similar meanings
-							are structured differently from each other. It is important for the balance of a sentence
-							to maintain parallel structure between like parts. Faulty parallelism often occurs with items
-							in a list, items joined by conjunctions, and items being compared or contrasted. Parallelism is
-							easiest to understand with examples, so go through the following examples carefully."})
+										  are structured differently from each other. It is important for the balance of a sentence
+										  to maintain parallel structure between like parts. Faulty parallelism often occurs with items
+										  in a list, items joined by conjunctions, and items being compared or contrasted. Parallelism is
+										  easiest to understand with examples, so go through the following examples carefully."})
 Unit.create!({
 							name: "Pronoun Agreement",
 							description: "Some of the most common grammatical erros have to do with pronoun agreement. Every
-							pronoun has a noun it refers to, known as its antecedent, and to be grammatically correct the pronoun
-							must agree with the noun in terms of its number (singular or plural). Typical errors in pronoun
-							agreement occur when plural pronouns such as they, them, and their are used with singular nouns."})
+										  pronoun has a noun it refers to, known as its antecedent, and to be grammatically
+										  correct the pronoun must agree with the noun in terms of its number (singular or plural).
+										  Typical errors in pronoun agreement occur when plural pronouns such as they, them, and
+										  their are used with singular nouns."})
 Unit.create!({
 							name: "Irregular Plurals",
-							description: ""})
+							description: "Irregular plurals are words that don't follow the typical form for pluralization.
+										  Often these are words that originate from Latin, which is also the basis of much of
+										  medical terminology. Some common examples are (pluralized form in parentheses): datum (data),
+										  ovum (ova), fungus (fungi), testis (testes), and crisis (crises)."})
 Unit.create!({
 							name: "Comma Use",
-							description: ""})
+							description: "The comma is an important tool used for building complex sentences, combining
+										  clauses, and seperating items in a list. Commas are also used to delineate identifiers
+										  and appositives. They are often either used incorrectly or omitted when necessary. One
+										  specific error in comma usage, the comma splice, has an entire unit dedicated
+										  to it. In this unit we will review other errors in comma usage and provide examples
+										  of correct usage."})
 Unit.create!({
 							name: "Semicolon Use",
-							description: ""})
+							description: "Semicolons, like commas, are used to combine independent clauses. Semicolons are used with
+										  transitional phrases such as however, moreover, therefore, and furthermore. The semicolon
+										  precedes the transitional phrase and a comma follows it."})
 Unit.create!({
 							name: "Colon Use",
-							description: ""})
+							description: "Commas are used in situations with two independent clauses in which the second clause providers
+										  additional information to the first. They are often used with lists of items. For example, namely, 
+										  and that is are common transitional phrases used with colons."})
 Unit.create!({
 							name: "Apostrophe Use",
-							description: ""})
+							description: "Apostrophes are used to indicate possessives and contractions. Common contractions are it's (it is)
+										  they're (they are), who's (who is), and you're (you are). There are certain words that
+										  don't require contractions in their possessive forms: for example, its, your, their, and whose."})
 Unit.create!({
 							name: "Awkward Construction",
-							description: ""})
+							description: "Awkward construction is when the structure of a sentence obscures the meaning and makes it difficult
+										  for the reader to understand. After all, the principal concern of a sentence is to express a complete
+										  thought in a way that the reader can understand. Some common sources of awkward construction are the
+										  use of passive voice, the use of unnecessary words, and the poor arrangement of words or phrases."})
 Question.create!({unit_id: 1,
 									prompt: "Choose the correct word to complete the following sentence:
 													'The decision to operate had several _______.'",
@@ -156,3 +174,415 @@ Question.create!({unit_id: 2,
 												 What is the subject of this sentence? What is the subject doing?
 												 Which of these questions can you not answer?",
 									unit_position: 3})
+Question.create({unit_id: 2,
+									prompt: "Identify the fragment.",
+									answer1: "The nurse that checked the patient's vitals entered the data
+									into the computer.",
+									answer2: "They couldn't begin the treatment until the test results confirmed the diagnosis.",
+									answer3: "The longest part of the treatment, the post-operative rehabilitation.",
+									answer4: "Information has to be efficiently shared between many different healthcare providers.",
+									correct_answer: 3,
+									hint: "Remember, all sentences must contain both a subject and a verb. Do all of these sentences
+												have both?",
+									unit_position: 4})
+Question.create({unit_id: 3,
+									prompt: "Identify the run-on sentence.",
+									answer1: "When the nurse walked into the room, the doctor was interviewing the patient.",
+									answer2: "The patient's medications included a bronchodilator and aspirin and there had been substantial
+											  improvement in the patient's condition since the regimen had begun.",
+									answer3: "The patient's family was present and supportive, and it had a clear impact on the patient's
+											  state of mind.",
+									answer4: "There had been discussion about which course to take, and consensus had been hard to build;
+											  however, they all agreed on the necessity of some sort of action.",
+									correct_answer: 2,
+									hint: "Remember the ways that independent clauses can be joined: with a comma and a subordinating conjunction or
+										   with a semicolon and a transitional phrase. Are all of these sentences compound? If they are do they 
+										   all follow one of these structures?",
+									unit_position: 1})
+Question.create({unit_id: 3,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 3,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 3,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 4,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 4,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 4,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 4,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 5,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 5,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 5,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 5,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 6,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 6,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 6,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 6,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 7,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 7,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 7,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 7,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 8,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 8,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 8,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 8,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 8,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 8,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 8,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 8,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 9,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 9,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 9,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 9,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 10,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 10,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 10,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 10,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 11,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 11,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 11,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 11,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})
+Question.create({unit_id: 12,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 1})
+Question.create({unit_id: 12,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 2})
+Question.create({unit_id: 12,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 3})
+Question.create({unit_id: 12,
+									prompt: "",
+									answer1: "",
+									answer2: "",
+									answer3: "",
+									answer4: "",
+									correct_answer: 1,
+									hint: "",
+									unit_position: 4})

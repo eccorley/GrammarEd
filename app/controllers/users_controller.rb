@@ -12,6 +12,15 @@ class UsersController < ApplicationController
     @unit1_progress = (@user.completions.where("unit_id = ?", 1).count.to_f / Question.where("unit_id = ?", 1).count.to_f) * 100
     @unit2_progress = (@user.completions.where("unit_id = ?", 2).count.to_f / Question.where("unit_id = ?", 2).count.to_f) * 100
     @unit3_progress = (@user.completions.where("unit_id = ?", 3).count.to_f / Question.where("unit_id = ?", 3).count.to_f) * 100
+    @unit4_progress = (@user.completions.where("unit_id = ?", 4).count.to_f / Question.where("unit_id = ?", 4).count.to_f) * 100
+    @unit5_progress = (@user.completions.where("unit_id = ?", 5).count.to_f / Question.where("unit_id = ?", 5).count.to_f) * 100
+    @unit6_progress = (@user.completions.where("unit_id = ?", 6).count.to_f / Question.where("unit_id = ?", 6).count.to_f) * 100
+    @unit7_progress = (@user.completions.where("unit_id = ?", 7).count.to_f / Question.where("unit_id = ?", 7).count.to_f) * 100
+    @unit8_progress = (@user.completions.where("unit_id = ?", 8).count.to_f / Question.where("unit_id = ?", 8).count.to_f) * 100
+    @unit9_progress = (@user.completions.where("unit_id = ?", 9).count.to_f / Question.where("unit_id = ?", 9).count.to_f) * 100
+    @unit10_progress = (@user.completions.where("unit_id = ?", 10).count.to_f / Question.where("unit_id = ?", 10).count.to_f) * 100
+    @unit11_progress = (@user.completions.where("unit_id = ?", 11).count.to_f / Question.where("unit_id = ?", 11).count.to_f) * 100
+    @unit12_progress = (@user.completions.where("unit_id = ?", 12).count.to_f / Question.where("unit_id = ?", 12).count.to_f) * 100
   end
 
   def create

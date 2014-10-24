@@ -528,22 +528,43 @@ Question.create({unit_id: 8,
 												clause it depends on.",
 									unit_position: 4})
 Question.create({unit_id: 9,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the sentence:
+													'There were a number of potential complications related to the patient's
+													medication regime, the team had to continuously monitor the patient's information
+													for signs of them.",
+									answer1: "There were a number of potential complications related to the patient's
+													medication regime, moreover; the team had to continuously monitor the patient's information
+													for signs of them.",
+									answer2: "There were a number of potential complications related to the patient's
+													medication regime; the team had to continuously monitor the patient's information
+													for signs of them.",
+									answer3: "There were a number of potential complications related to the patient's
+													medication regime so; the team had to continuously monitor the patient's information
+													for signs of them.",
+									answer4: "Sentence is correct",
+									correct_answer: 2,
+									hint: "Semicolons are used to join two independent clauses, such as the two we have in this
+												question. They can be used alone or in tandem with transitional phrases, which they should precedes
+												and which should be followed by commas. ",
 									unit_position: 1})
 Question.create({unit_id: 9,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
+									prompt: "Correct the sentence:
+													'In the initial examination, the doctor checked the patient's reflexes, pupillary
+													response, and pulse rate, recorded the patient's height and weight, and took 
+													blood and urine samples.'",
+									answer1: "In the initial examination, the doctor checked the patient's reflexes, pupillary
+													response, and pulse rate; recorded the patient's height and weight; and took blood
+													and urine samples.",
+									answer2: "In the initial examination, the doctor checked the patient's reflexes, pupillary
+													response, and pulse rate; recorded the patient's height and weight, and took blood
+													and urine samples.",
+									answer3: "In the initial examination, the doctor checked the patient's reflexes, pupillary
+													response, and pulse rate, recorded the patient's height and weight; and took blood
+													and urine samples.",
+									answer4: "Sentence is correct",
 									correct_answer: 1,
-									hint: "",
+									hint: "Semicolons can also be used to seperate items in a list when the items in a list are
+												complex and commas would be confusing. If used this way, consistency is important.",
 									unit_position: 2})
 Question.create({unit_id: 9,
 									prompt: "",

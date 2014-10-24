@@ -349,7 +349,7 @@ Question.create({unit_id: 5,
 									correct_answer: 3,
 									hint: "Try saying each item in the list as if it were the only item in the list, such as 'can 
 												result in shortness of breath' and 'can result in cough.' In which option do all the items
-												agree with the verb?"
+												agree with the verb?",
 									unit_position: 3})
 Question.create({unit_id: 5,
 									prompt: "Identify the faulty parallelism.",

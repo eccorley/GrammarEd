@@ -210,157 +210,254 @@ Question.create({unit_id: 3,
 									hint: "",
 									unit_position: 2})
 Question.create({unit_id: 3,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Select the answer that corrects the following run-on:
+												'The team had concerns regarding the patient's response to his diagnosis, however the patient handled the news very well and
+												was determined to go forward with the treatments.'",
+									answer1: "The team had concerns regarding the patient's response to his diagnosis, however the patient handled the news very well, and
+												was determined to go forward with the treatments.",
+									answer2: "The team had concerns regarding the patient's response to his diagnosis; however the patient handled the news very well and
+												was determined to go forward with the treatments.",
+									answer3: "The team had concerns regarding the patient's response to his diagnosis; however, the patient handled the news very well and
+												was determined to go forward with the treatments.",
+									answer4: "The team had concerns regarding the patient's response to his diagnosis; however, the patient handled the news very well; and
+												was determined to go forward with the treatments.",
+									correct_answer: 3,
+									hint: "What kind of phrases do we have in this sentence? Is there more than one independent clause? What comes between them?",
 									unit_position: 3})
 Question.create({unit_id: 3,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "It is imperative that infection procedures are followed exactly as they are laid out and every member of a healthcare team
+													needs to have a clear understanding of them.",
+									answer1: "It is imperative that infection procedures are followed exactly as they are laid out, and, every member of a healthcare team
+													needs to have a clear understanding of them.",
+									answer2: "It is imperative that infection procedures are followed exactly as they are laid out; and every member of a healthcare team
+													needs to have a clear understanding of them.",
+									answer3: "It is imperative that infection procedures are followed exactly as they are laid out and, every member of a healthcare team
+													needs to have a clear understanding of them.",
+									answer4: "It is imperative that infection procedures are followed exactly as they are laid out. Every member of a healthcare team
+													needs to have a clear understanding of them.",
+									correct_answer: 4,
+									hint: "To answer this you'll need to understand how sentences are properly joined with coordinating conjunctions. Do any of the choices
+												correctly use the coordinating conjunction and?",
 									unit_position: 4})
 Question.create({unit_id: 4,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "The patient's family asked to speak with the doctor, the nurse went to the nurses' situations
+													to page her.",
+									answer1: "The patient's family asked to speak with the doctor, so the nurse went to the nurses' situations
+													to page her.",
+									answer2: "The patient's family asked to speak with the doctor the nurse went to the nurses' situations
+													to page her.",
+									answer3: "The patient's family asked to speak with the doctor so the nurse went to the nurses' situations
+													to page her.",
+									answer4: "The patient's family asked to speak with the doctor the nurse went to the nurses' situations
+													to page her.",
+									correct_answer: 2,
+									hint: "Remember the correct way to use a coordinating conjunction!",
 									unit_position: 1})
 Question.create({unit_id: 4,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Identify the comma splice:",
+									answer1: "Shifts were divided between the team of nurses, and the late shift responsibilites
+														were rotated on a weekly basis.",
+									answer2: "While the doctor talked to the patient, the nurse checked the status of the test results.",
+									answer3: "Special care must be taken to ensure the child with diabetes understands the importance of glucose
+														monitoring, it is especially important for children to engage with their treatment.",
+									answer4: "The patient with chronic hypertension should be educated on the DASH diet, which includes reducing
+														saturated fats and cholesterol, limiting sodium, and eating substantial servings of fruits, vegetables, and whoel grains.",
+									correct_answer: 3,
+									hint: "Remember, a comma splice is when a comma is incorrectly used by itself to join two independent clauses.
+												Which of these sentences consists of two independent clauses?",
 									unit_position: 2})
 Question.create({unit_id: 4,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
+									prompt: "Identify the comma splice:",
+									answer1: "Cirrhosis is a slowly progressing disease in which liver tissue is replaced with
+														scar tissue, it can be cause by anything that damages liver tissue.",
+									answer2: "Hemochromatosis is a condition in which excessive iron is absorbed and deposited
+														into the liver and other organs, and it can lead to life-threatening conditions including
+														cancer, heart disease, and cirrhosis.",
+									answer3: "Medication errors pose a significant risk in hospital environments; therefore, protocols are constantly
+														being re-evaluated to ensure their effectiveness in error prevention.",
+									answer4: "The common symptoms of a cerebrovascular accident include: sudden-onset face weakness, arm drift, and
+														abnormal speech.",
 									correct_answer: 1,
-									hint: "",
+									hint: "In what ways can commas be used to combine clauses? Are any of the above examples incorrectly using
+												a comma?",
 									unit_position: 3})
 Question.create({unit_id: 4,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the following comma splice:
+													'The electronic health record provides patients access to all of their pertinent health information,
+													it gives them more control over their healthcare decisions.",
+									answer1: "The electronic health record provides patients access to all of their pertinent health information,
+													moreover, it gives them more control over their healthcare.",
+									answer2: "The electronic health record provides patients access to all of their pertinent health information; 
+													and it gives them more control over their healthcare.",
+									answer3: "The electronic health record provides patients access to all of their pertinent health information
+													moreover, it gives them more control over their healthcare.",
+									answer4: "The electronic health record provides patients access to all of their pertinent health information;
+													 it gives them more control over their healthcare.",
+									correct_answer: 4,
+									hint: "Once again we have two independent clauses joined by only a comma. Remember, semicolons are used alone or
+												with transitional phrases, and commas are used with coordinating conjunctions.",
 									unit_position: 4})
 Question.create({unit_id: 5,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the faulty parallelism:
+													'The doctor took the time to review the patient's medications, check the patient's reflexes, and 
+													observing the patient's pupillary response.'",
+									answer1: "The doctor took the time to review the patient's medications, check the patient's reflexes, and
+														to observe the patient's pupillary response.",
+									answer2: "The doctor took the time to review the patient's medications, check the patient's reflexes, and
+														observed the patient's pupillary response.",
+									answer3: "The doctor took the time to review the patient's medications, check the patient's reflexes, and
+														observe the patient's pupillary response.",
+									answer4: "The doctor took the time to review the patient's medications, to check the patient's reflexes, and
+														observe the patient's pupillary response.",
+									correct_answer: 3,
+									hint: "Balance in a sentence depends on parallelism, which means like parts of a sentence use like
+												construction. Like construction means using the same verb form.",
 									unit_position: 1})
 Question.create({unit_id: 5,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the faulty parallelism:
+													'Osteoporosis is a progressive bone disease in which bone mineral density is reduced resulting
+													in an increased risk of fractures; common fractures associated with osteoporosis are rib, hip, and
+													in the vertebral column.'",
+									answer1: "Osteoporosis is a progressive bone disease in which bone mineral density is reduced resulting
+													in an increased risk of fractures; common fractures associated with osteoporosis are the ribs, hips, and
+													in the vertebral column.",
+									answer2: "Osteoporosis is a progressive bone disease in which bone mineral density is reduced resulting
+													in an increased risk of fractures; common fractures associated with osteoporosis occur in the ribs, hips,
+													and vertebral column.",
+									answer3: "Osteoporosis is a progressive bone disease in which bone mineral density is reduced resulting
+													in an increased risk of fractures; common fractures associated with osteoporosis are rib, hip, and
+													the vertebral column.",
+									answer4: "Osteoporosis is a progressive bone disease in which bone mineral density is reduced resulting
+													in an increased risk of fractures; common fractures associated with osteoporosis occur in rib, hip, and
+													in the vertebral column.",
+									correct_answer: 2,
+									hint: "This example gives us a list of places where fractures occur. We need to make structure
+												each item in our list agrees with the verb and matches the form of the other items.",
 									unit_position: 2})
 Question.create({unit_id: 5,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the faulty parallelism:
+													'Tobacco smoking is the most common cause of COPD and can result in shortness of breath,
+													cough, and increase sputum production.'",
+									answer1: "Tobacco smoking is the most common cause of COPD and can result in shortness of breath,
+													coughing, and to increasing sputum production.",
+									answer2: "Tobacco smoking is the most common cause of COPD and can result in shortness of breath,
+													cough, and sputum production increased.",
+									answer3: "Tobacco smoking is the most common cause of COPD and can result in shortness of breath,
+													cough, and increased sputum production.",
+									answer4: "Tobacco smoking is the most common cause of COPD and can result in shortness of breath,
+													cough, and sputum production increasing.",
+									correct_answer: 3,
+									hint: "Try saying each item in the list as if it were the only item in the list, such as 'can 
+												result in shortness of breath' and 'can result in cough.' In which option do all the items
+												agree with the verb?"
 									unit_position: 3})
 Question.create({unit_id: 5,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Identify the faulty parallelism.",
+									answer1: "The patient had a history of tobacco use, alcohol use, and asbestos exposure.",
+									answer2: "Preeclampsia is evidenced by high blood pressure and protein in the urine, and
+														it can develop into eclampsia, the occurence of seizures during pregnancy.",
+									answer3: "Risk factors for preeclampsia include: Diabetes mellitus, renal disease and chronic
+														hypertension, obesity and advanced maternal age, and multiple gestation.",
+									answer4: "The diagnosis of preeclampsia occurs when blood pressure is >= 140mm Hg systolic
+														or >= 90mm Hg diastolic on two seperate readings taken at least four to six hours
+														apart after twenty weeks gestation in a patient with a history of normal blood pressure.",
+									correct_answer: 3,
+									hint: "Remember, faulty parallelism includes clumsy grouping of items in a list.",
 									unit_position: 4})
 Question.create({unit_id: 6,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
+									prompt: "Choose the proper pronoun to complete the sentence:
+													'The patient with diabetes mellitus must always be aware of ________
+													blood glucose levels.",
+									answer1: "their",
+									answer2: "his or her",
+									answer3: "there",
+									answer4: "him or she's",
 									correct_answer: 1,
-									hint: "",
+									hint: "Your pronoun should always agree in number with the object it is referencing. In
+												this example we are referencing the object 'the patient,' which is a singular noun.
+												Which of these pronouns goes with a singular noun?",
 									unit_position: 1})
 Question.create({unit_id: 6,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the incorrect pronoun:
+									'The doctors on the team communicated closely and shared his or her observations and
+									opinions about the patient's progress.",
+									answer1: "The doctors on the team communicated closely and shared they're observations and
+									opinions about the patient's progress.",
+									answer2: "The doctors on the team communicated closely and shared his observations and
+									opinions about the patient's progress.",
+									answer3: "The doctors on the team communicated closely and shared their observations and
+									opinions about the patient's progress.",
+									answer4: "The doctors on the team communicated closely and shared her or her observations and
+									opinions about the patient's progress.",
+									correct_answer: 3,
+									hint: "Here our object, 'the doctors,' is plural, so we'll need to use a plural pronoun. Which
+												of the plural forms should we choose? Remember the differences between the forms 'their, they're,
+												and there.",
 									unit_position: 2})
 Question.create({unit_id: 6,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
+									prompt: "Choose the correct pronoun:
+													'She checked in on each of her patients, making sure that there was nothing she could do for
+													______.",
+									answer1: "them",
+									answer2: "they",
+									answer3: "him or her",
+									answer4: "he or she",
 									correct_answer: 1,
-									hint: "",
+									hint: "Once again we have a plural object. Of the two plural forms given as options, 'them' and 'they,' which
+												correctly completes the sentence?",
 									unit_position: 3})
 Question.create({unit_id: 6,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
+									prompt: "Correct the sentence:
+													'The patient's son requested that the home-care nurse keep him updated on any changes
+													in their father's status.",
+									answer1: "The patient's son requested that the home-care nurse keep him updated on any changes
+														in they're father's status.",
+									answer2: "The patient's son requested that the home-care nurse keep him updated on any changes
+														in his father's status.",
+									answer3: "The patient's son requested that the home-care nurse keep him updated on any changes
+														in there father's status.",
+									answer4: "The patient's son requested that the home-care nurse keep him updated on any changes
+														in they father's status.",
 									correct_answer: 1,
-									hint: "",
+									hint: "The object our pronoun references is 'the patient's son,' which is singular. Which of the
+												options uses singular pronouns?",
 									unit_position: 4})
 Question.create({unit_id: 7,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Replace the incorrect plural form with the correct plural form:
+													'The patient's long history of tobacco use was the most important data in understanding
+													the causes of her illness.",
+									answer1: "datas",
+									answer2: "datums",
+									answer3: "datum",
+									answer4: "Sentence is correct",
+									correct_answer: 3,
+									hint: "The first thing we need to know is whether our sentence calls for the singular or plural
+												form of our word. In this case we are talking about one particular piece of data, so we 
+												need the singular form.",
 									unit_position: 1})
 Question.create({unit_id: 7,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
+									prompt: "Correct the incorrect plural:
+													'In vitro fertilization is an assisted reproductive technology in which an ova
+													and a sperm are combined in a laboratory dish to form an embryo, which is then
+													implanted into the uterus.'",
+									answer1: "ovum",
+									answer2: "ovas",
+									answer3: "ovam",
+									answer4: "Sentence is correct",
 									correct_answer: 1,
-									hint: "",
+									hint: "Once again we need the singular form of our word. Is 'ova' singular or plural?",
 									unit_position: 2})
 Question.create({unit_id: 7,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the incorrect plural:
+													'To help him quickly find the relevant data, the nurse consulted the indexes of both
+													of both of his medical reference.'",
+									answer1: "index",
+									answer2: "index's",
+									answer3: "indices",
+									answer4: "Sentence is correct",
+									correct_answer: 3,
+									hint: "Here we need to identify the correct plural form of 'index.' Remember, apostrophes form
+												posessives!",
 									unit_position: 3})
 Question.create({unit_id: 7,
 									prompt: "",

@@ -460,85 +460,72 @@ Question.create({unit_id: 7,
 												posessives!",
 									unit_position: 3})
 Question.create({unit_id: 7,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the incorrect plural:
+													'There are several funguses that can cause severe effects in humans, and there
+													are even a few that can be fatal.",
+									answer1: "fungus",
+									answer2: "fungis",
+									answer3: "fungus's",
+									answer4: "fungi",
+									correct_answer: 4,
+									hint: "In this example we are talking about more than one fungus, so we need to use the
+												correct plural form. Remember the plural of fungus is formed irregularly, and
+												does not include an apostrophe.",
 									unit_position: 4})
 Question.create({unit_id: 8,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Choose the sentence with correct comma usage.",
+									answer1: "The system monitored the patient's heart rate, blood pressure and respiratory
+														rate.",
+									answer2: "The system monitored the patient's heart rate, blood pressure, and respiratory
+														rate.",
+									answer3: "The system monitored the patient's heart rate, blood pressure and, respiratory
+														rate.",
+									answer4: "The system monitored the patient's heart rate, blood pressure; and respiratory
+														rate.",
+									correct_answer: 2,
+									hint: "This question gives us a list of items seperated by commas. Remember the rule concerning
+												the Oxford comma.",
 									unit_position: 1})
 Question.create({unit_id: 8,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the following sentence:
+													'After consulting with the specialist the patient discussed her options with her family.'",
+									answer1: "After consulting with the specialist; the patient discussed her options with her family.",
+									answer2: "After consulting with the specialist, the patient, discussed her options with her family.",
+									answer3: "After consulting with the specialist, the patient discussed her options with her family.",
+									answer4: "Sentence is correct",
+									correct_answer: 3,
+									hint: "Here we see an example an introductory phrase. Our first phrase sets context for our second
+												phrase. Commas should always be used following introductory phrases.",
 									unit_position: 2})
 Question.create({unit_id: 8,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
+									prompt: "Choose the sentence that demonstrates proper comma usage.",
+									answer1: "The patient asked the nurse about the privacy of her health information, and
+														the nurse took the time to explain the tenants of the Health Insurnace Portability
+														and Accountability Act.",
+									answer2: "There were only two hospitals in the area that offered the treatment, and, the patient's
+														primary physician assured him both provided the highest quality of care.",
+									answer3: "The nurse asked the patient for his health history, and family background.",
+									answer4: "The students observed and took notes, while the doctor interviewed the patient.",
 									correct_answer: 1,
-									hint: "",
+									hint: "This example test your understanding of when commas are needed. If we two independent
+												clauses and a coordinating conjunction, we need a comma; if we have a transitional phrase,
+												we need a semicolon. Which of these demonstrates correct comma usage?",
 									unit_position: 3})
 Question.create({unit_id: 8,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
-									unit_position: 4})
-Question.create({unit_id: 8,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
-									unit_position: 1})
-Question.create({unit_id: 8,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
-									unit_position: 2})
-Question.create({unit_id: 8,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
-									unit_position: 3})
-Question.create({unit_id: 8,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the following sentence:
+													'All members of the healthcare team must take precautions to ensure patient privacy and 
+													avoid potentially dangerous errors.",
+									answer1: "All members of the healthcare team must take precautions to ensure patient privacy, and
+														avoid potentially dangerous errors.",
+									answer2: "All members of the healthcare team must take precautions to ensure patient privacy; and
+														avoid potentially dangerous errors.",
+									answer3: "All members of the healthcare team must take precautions to ensure patient privacy and,
+														avoid potentially dangerous errors.",
+									answer4: "Sentence is correct",
+									correct_answer: 4,
+									hint: "Remember, commas are only needed in lists greater than two, when joining two independent
+												clauses with a coordinating conjunction, or when connecting a dependent clause with the
+												clause it depends on.",
 									unit_position: 4})
 Question.create({unit_id: 9,
 									prompt: "",

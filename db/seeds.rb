@@ -567,39 +567,64 @@ Question.create({unit_id: 9,
 												complex and commas would be confusing. If used this way, consistency is important.",
 									unit_position: 2})
 Question.create({unit_id: 9,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Choose the correct sentence.",
+									answer1: "There no specialists in the patient's local area, however the team was able to
+														schedule a teleconsult with one of the leading doctors in the field.",
+									answer2: "Diabetic ketoacidosis is a complication of diabetes in which the body can't
+														use sugar as a fuel source due to a lack of insulin; so the body has to use
+														fat as a fuel source instead, which results in the build up of ketones in the body.",
+									answer3: "Obesity increases the risk of a wide variety of conditions and is one of the leading
+														causes of preventable death; nonetheless, the obesity rate in the United States continues
+														to rise.",
+									answer4: "Modern antibiotics are one of the greatest innovations of the past century; however they
+														must be used responsibly to control the development of antibiotic resistant bacteria.",
+									correct_answer: 3,
+									hint: "Remember, when a semicolon is used with a transitional phrase, there also needs to be a comma
+												following the transitional phrase.",
 									unit_position: 3})
 Question.create({unit_id: 9,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
+									prompt: "Choose the correct sentence:",
+									answer1: "Continued education is a critical part of any healthcare provider's job; healthcare is
+														constantly and rapidly evolving, and it is important to stay up to date on the best
+														practices and the latest research.",
+									answer2: "There are many opportunities for healthcare providers to travel overseas and provide care;
+														and it is important that quality healthcare be provided in the places that need it the most.",
+									answer3: "Understanding workflow is key to improving the processes of an organization; so, all process changes
+														must take into account their effect on workflow.",
+									answer4: "When caring for children; it is important to take into account the different fears and anxieties
+														they might have and address them compassionately.",
 									correct_answer: 1,
-									hint: "",
+									hint: "The key to this question is to remember the difference between transitional phrases and coordinating
+												conjuncitons. Coordinating conjunctions don't require semicolons when joining two independent clauses,
+												they only need commas.",
 									unit_position: 4})
 Question.create({unit_id: 10,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Correct the following sentence:
+													'There are a number of potentical complications from diabetes, for example diabetic retinopathy, diabetic
+													neuropathy, and an almost doubled risk of cardiovascular disease."
+									answer1: "There are a number of potential complications from diabetes. For example, diabetic retinopathy,
+														diabetic neuropathy, and a doubled risk of cardiovascular disease.",
+									answer2: "There are a number of potential complications from diabetes, diabetic retinopathy,
+														diabetic neuropathy, and a doubled risk of cardiovascular disease.",
+									answer3: "There are a number of potential complications from diabetes; for example, diabetic retinopathy,
+														diabetic neuropathy, and a doubled risk of cardiovascular disease.",
+									answer4: "There are a number of potential complications from diabetes: for example, diabetic retinopathy,
+														diabetic neuropathy, and a doubled risk of cardiovascular disease.",
+									correct_answer: 4,
+									hint: "When we use the phrase 'for example' followed by a list of items, we need to introduce it with a 
+												colon.",
 									unit_position: 1})
 Question.create({unit_id: 10,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
+									prompt: "Choose the correct sentence.",
+									answer1: "Nurse practitioners must meet requirements for recertifiation; one thousand hours of workflow
+														in an advanced practice role and 75 contact hours of relevant continuing education must be documented for the recertifaction period.",
+									answer2: "Nurse practitioners must meet requirements for recertification: 1000 hours of work in an advanced
+														practice role and 75 contact hours of relevant continuing education must be documented for the recertifcation period.",
+									answer3: "Nurse practitioners must meet requirements for recertification, one thousand hours of work in
+														an advanced practice role and 75 contact hours of relevant continuing education must be documented for the recertification period.",
+									answer4: "Nurse practitioners must meet requirements for recertification, for example one thousand hours of work in
+														an advanced practice role and 75 contact hours of relevant continuing education must be documented for the recertification period.",
+									correct_answer: 2,
 									hint: "",
 									unit_position: 2})
 Question.create({unit_id: 10,
@@ -621,13 +646,16 @@ Question.create({unit_id: 10,
 									hint: "",
 									unit_position: 4})
 Question.create({unit_id: 11,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Choose the sentence that contains improper apostrophe use.",
+									answer1: "The patient's family was visiting when the doctor entered the room, and she took the opportunity
+														to review the patient's treatment with them.",
+									answer2: "A drug's potential side-effects must be balanced with it's potential efficacy",
+									answer3: "It's vital that nurses pursue continued education, as healthcare is a rapidly changing field and
+														new vital information is coming to light all the time.",
+									answer4: "Patients' rights must always be respected and every patient must be informed and aware of them.",
+									correct_answer: 2,
+									hint: "Remember there are a few special words that don't require an apostrophe in their possessive form. Do
+												any of these sentences contain one of those words?",
 									unit_position: 1})
 Question.create({unit_id: 11,
 									prompt: "",
@@ -657,31 +685,57 @@ Question.create({unit_id: 11,
 									hint: "",
 									unit_position: 4})
 Question.create({unit_id: 12,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Choose the sentence that best addresses the awkward construction in the following sentence:
+													'The system would provide patients access to health care records, allowing them to
+													schedule appointments, and give them a straight line of contact with their doctor, and
+													these benefits are a great improvement over the current system.",
+									answer1: "The system would provide patients access to health care records, allow them to
+														schedule appointments, and give them a straight line of contact with their doctor;
+														and these benefits are a great improvement over the current system.",
+									answer2: "The system would provide patients access to health care records, allow them to
+														schedule appointments, and give them a straight line of contact with their doctor;
+														these benefits are a great improvement over the current system.",
+									answer3: "The system would provide patients access to health care records, allowing them to
+														schedule appointments, and give them a straight line of contact with their doctor.
+														These benefits are a great improvement over the current system.",
+									answer4: "The system would provide patients access to health care records, allowing them to
+														schedule appointments, and give them a straight line of contact with their doctor;
+														these benefits are a great improvement over the current system.",
+									correct_answer: 2,
+									hint: "These questions might have more than one problem. Pay attention for all the concepts we have
+												gone over so far: for example, verb agreement; comma, semicolon, and colon use; and pronoun
+												agreement.",
 									unit_position: 1})
 Question.create({unit_id: 12,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
+									prompt: "Choose the sentence that best addresses the awkward construction in the following sentence:
+													'Attempts at decreases in usage of narcotic painkillers must be balanced with the need to
+													provide ample pain relief to the patient in pain. ",
+									answer1: "Attempts to decrease the use of narcotic painkillers must be balanced with the need to
+														provide ample relief to the patient in pain.",
+									answer2: "Attempts at decreases in the usage of narcotic painkillers must be balanced with the need to
+														provide ample relief to the patient in pain.",
+									answer3: "Attempts at decreasing usage of narcotic painkillers must be balanced with the need to
+														provide ample pain relief to the patient in pain.",
+									answer4: "Attempts at decreasing the use of narcotic painkillers must be balanced with the need to
+														provide ample pain relief to the patient in pain.",
 									correct_answer: 1,
-									hint: "",
+									hint: "Once again there may be more than one issue here, and we are looking for the BEST answer.
+												Pay attention to the flow of the sentence and try to eliminate any potentially confusing parts.",
 									unit_position: 2})
 Question.create({unit_id: 12,
-									prompt: "",
-									answer1: "",
-									answer2: "",
-									answer3: "",
-									answer4: "",
-									correct_answer: 1,
-									hint: "",
+									prompt: "Choose the sentence that best addresses the awkward construction in the following sentence:
+													'For a nurse to take on the responsibility of providing home-care for a patient is very demanding
+													on the nurse.",
+									answer1: "For a nurse to take on the responsibility of providing home-care for a patient is very demanding.",
+									answer2: "For a nurse to take on the responsibility of providing home-care for a patient is demanding
+														on the nurse.",
+									answer3: "Taking on the responsibility of providing home-care for a patient is very demanding
+														on the nurse.",
+									answer4: "For a nurse to take on the responsibility of providing home-care for a patient is a very demanding
+														thing for the nurse.",
+									correct_answer: 3,
+									hint: "Which of these sentences flows the best? Pay attention to unnecessary words or phrases that could
+												be eliminated.",
 									unit_position: 3})
 Question.create({unit_id: 12,
 									prompt: "",

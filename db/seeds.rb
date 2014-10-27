@@ -601,7 +601,7 @@ Question.create({unit_id: 9,
 Question.create({unit_id: 10,
 									prompt: "Correct the following sentence:
 													'There are a number of potentical complications from diabetes, for example diabetic retinopathy, diabetic
-													neuropathy, and an almost doubled risk of cardiovascular disease."
+													neuropathy, and an almost doubled risk of cardiovascular disease.",
 									answer1: "There are a number of potential complications from diabetes. For example, diabetic retinopathy,
 														diabetic neuropathy, and a doubled risk of cardiovascular disease.",
 									answer2: "There are a number of potential complications from diabetes, diabetic retinopathy,

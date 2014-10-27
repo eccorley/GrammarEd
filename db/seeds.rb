@@ -100,8 +100,7 @@ Question.create!({unit_id: 1,
 
 Question.create!({unit_id: 1,
 									prompt: "Choose the correct word to complete the following sentence:
-													 'It is the nurse's job to ________ that the proper
-													  documentation is made for each patient.'",
+													 'It is the nurse's job to ________ that the proper documentation is made for each patient.'",
 									answer1: "insure",
 									answer2: "assure",
 									answer3: "ensure",
@@ -114,8 +113,7 @@ Question.create!({unit_id: 1,
 
 Question.create!({unit_id: 1,
 									prompt: "Choose the correct word to complete the following sentence:
-													 'Nurses must be able to ________ responsibility for their
-													 role in patient care.'",
+													 'Nurses must be able to ________ responsibility for their role in patient care.'",
 									answer1: "except",
 									answer2: "accept",
 									answer3: "either",
@@ -211,8 +209,7 @@ Question.create({unit_id: 3,
 									unit_position: 2})
 Question.create({unit_id: 3,
 									prompt: "Select the answer that corrects the following run-on:
-												'The team had concerns regarding the patient's response to his diagnosis, however the patient handled the news very well and
-												was determined to go forward with the treatments.'",
+												'The team had concerns regarding the patient's response to his diagnosis, however the patient handled the news very well and was determined to go forward with the treatments.'",
 									answer1: "The team had concerns regarding the patient's response to his diagnosis, however the patient handled the news very well, and
 												was determined to go forward with the treatments.",
 									answer2: "The team had concerns regarding the patient's response to his diagnosis; however the patient handled the news very well and
@@ -225,8 +222,8 @@ Question.create({unit_id: 3,
 									hint: "What kind of phrases do we have in this sentence? Is there more than one independent clause? What comes between them?",
 									unit_position: 3})
 Question.create({unit_id: 3,
-									prompt: "It is imperative that infection procedures are followed exactly as they are laid out and every member of a healthcare team
-													needs to have a clear understanding of them.",
+									prompt: "Select the answer that corrects the following run-on:
+													'It is imperative that infection procedures are followed exactly as they are laid out and every member of a healthcare team needs to have a clear understanding of them.'",
 									answer1: "It is imperative that infection procedures are followed exactly as they are laid out, and, every member of a healthcare team
 													needs to have a clear understanding of them.",
 									answer2: "It is imperative that infection procedures are followed exactly as they are laid out; and every member of a healthcare team
@@ -240,8 +237,8 @@ Question.create({unit_id: 3,
 												correctly use the coordinating conjunction and?",
 									unit_position: 4})
 Question.create({unit_id: 4,
-									prompt: "The patient's family asked to speak with the doctor, the nurse went to the nurses' situations
-													to page her.",
+									prompt: "Fix the comma splice:
+													'The patient's family asked to speak with the doctor, the nurse went to the nurses' situations to page her.'",
 									answer1: "The patient's family asked to speak with the doctor, so the nurse went to the nurses' situations
 													to page her.",
 									answer2: "The patient's family asked to speak with the doctor the nurse went to the nurses' situations
@@ -283,8 +280,7 @@ Question.create({unit_id: 4,
 									unit_position: 3})
 Question.create({unit_id: 4,
 									prompt: "Correct the following comma splice:
-													'The electronic health record provides patients access to all of their pertinent health information,
-													it gives them more control over their healthcare decisions.",
+													'The electronic health record provides patients access to all of their pertinent health information, it gives them more control over their healthcare decisions.",
 									answer1: "The electronic health record provides patients access to all of their pertinent health information,
 													moreover, it gives them more control over their healthcare.",
 									answer2: "The electronic health record provides patients access to all of their pertinent health information; 
@@ -299,8 +295,7 @@ Question.create({unit_id: 4,
 									unit_position: 4})
 Question.create({unit_id: 5,
 									prompt: "Correct the faulty parallelism:
-													'The doctor took the time to review the patient's medications, check the patient's reflexes, and 
-													observing the patient's pupillary response.'",
+													'The doctor took the time to review the patient's medications, check the patient's reflexes, and observing the patient's pupillary response.'",
 									answer1: "The doctor took the time to review the patient's medications, check the patient's reflexes, and
 														to observe the patient's pupillary response.",
 									answer2: "The doctor took the time to review the patient's medications, check the patient's reflexes, and
@@ -315,9 +310,7 @@ Question.create({unit_id: 5,
 									unit_position: 1})
 Question.create({unit_id: 5,
 									prompt: "Correct the faulty parallelism:
-													'Osteoporosis is a progressive bone disease in which bone mineral density is reduced resulting
-													in an increased risk of fractures; common fractures associated with osteoporosis are rib, hip, and
-													in the vertebral column.'",
+													'Osteoporosis is a progressive bone disease in which bone mineral density is reduced resulting in an increased risk of fractures; common fractures associated with osteoporosis are rib, hip, and in the vertebral column.'",
 									answer1: "Osteoporosis is a progressive bone disease in which bone mineral density is reduced resulting
 													in an increased risk of fractures; common fractures associated with osteoporosis are the ribs, hips, and
 													in the vertebral column.",
@@ -336,8 +329,7 @@ Question.create({unit_id: 5,
 									unit_position: 2})
 Question.create({unit_id: 5,
 									prompt: "Correct the faulty parallelism:
-													'Tobacco smoking is the most common cause of COPD and can result in shortness of breath,
-													cough, and increase sputum production.'",
+													'Tobacco smoking is the most common cause of COPD and can result in shortness of breath, cough, and increase sputum production.'",
 									answer1: "Tobacco smoking is the most common cause of COPD and can result in shortness of breath,
 													coughing, and to increasing sputum production.",
 									answer2: "Tobacco smoking is the most common cause of COPD and can result in shortness of breath,
@@ -366,8 +358,7 @@ Question.create({unit_id: 5,
 									unit_position: 4})
 Question.create({unit_id: 6,
 									prompt: "Choose the proper pronoun to complete the sentence:
-													'The patient with diabetes mellitus must always be aware of ________
-													blood glucose levels.",
+													'The patient with diabetes mellitus must always be aware of ________ blood glucose levels.",
 									answer1: "their",
 									answer2: "his or her",
 									answer3: "there",
@@ -379,8 +370,7 @@ Question.create({unit_id: 6,
 									unit_position: 1})
 Question.create({unit_id: 6,
 									prompt: "Correct the incorrect pronoun:
-									'The doctors on the team communicated closely and shared his or her observations and
-									opinions about the patient's progress.",
+									'The doctors on the team communicated closely and shared his or her observations and opinions about the patient's progress.",
 									answer1: "The doctors on the team communicated closely and shared they're observations and
 									opinions about the patient's progress.",
 									answer2: "The doctors on the team communicated closely and shared his observations and
@@ -396,8 +386,7 @@ Question.create({unit_id: 6,
 									unit_position: 2})
 Question.create({unit_id: 6,
 									prompt: "Choose the correct pronoun:
-													'She checked in on each of her patients, making sure that there was nothing she could do for
-													______.",
+													'She checked in on each of her patients, making sure that there was nothing she could do for ______.",
 									answer1: "them",
 									answer2: "they",
 									answer3: "him or her",
@@ -408,8 +397,7 @@ Question.create({unit_id: 6,
 									unit_position: 3})
 Question.create({unit_id: 6,
 									prompt: "Correct the sentence:
-													'The patient's son requested that the home-care nurse keep him updated on any changes
-													in their father's status.",
+													'The patient's son requested that the home-care nurse keep him updated on any changes in their father's status.",
 									answer1: "The patient's son requested that the home-care nurse keep him updated on any changes
 														in they're father's status.",
 									answer2: "The patient's son requested that the home-care nurse keep him updated on any changes
@@ -424,8 +412,7 @@ Question.create({unit_id: 6,
 									unit_position: 4})
 Question.create({unit_id: 7,
 									prompt: "Replace the incorrect plural form with the correct plural form:
-													'The patient's long history of tobacco use was the most important data in understanding
-													the causes of her illness.",
+													'The patient's long history of tobacco use was the most important data in understanding the causes of her illness.",
 									answer1: "datas",
 									answer2: "datums",
 									answer3: "datum",
@@ -437,9 +424,7 @@ Question.create({unit_id: 7,
 									unit_position: 1})
 Question.create({unit_id: 7,
 									prompt: "Correct the incorrect plural:
-													'In vitro fertilization is an assisted reproductive technology in which an ova
-													and a sperm are combined in a laboratory dish to form an embryo, which is then
-													implanted into the uterus.'",
+													'In vitro fertilization is an assisted reproductive technology in which an ova and a sperm are combined in a laboratory dish to form an embryo, which is then implanted into the uterus.'",
 									answer1: "ovum",
 									answer2: "ovas",
 									answer3: "ovam",
@@ -449,8 +434,7 @@ Question.create({unit_id: 7,
 									unit_position: 2})
 Question.create({unit_id: 7,
 									prompt: "Correct the incorrect plural:
-													'To help him quickly find the relevant data, the nurse consulted the indexes of both
-													of both of his medical reference.'",
+													'To help him quickly find the relevant data, the nurse consulted the indexes of both of both of his medical reference.'",
 									answer1: "index",
 									answer2: "index's",
 									answer3: "indices",
@@ -461,8 +445,7 @@ Question.create({unit_id: 7,
 									unit_position: 3})
 Question.create({unit_id: 7,
 									prompt: "Correct the incorrect plural:
-													'There are several funguses that can cause severe effects in humans, and there
-													are even a few that can be fatal.",
+													'There are several funguses that can cause severe effects in humans, and there are even a few that can be fatal.",
 									answer1: "fungus",
 									answer2: "fungis",
 									answer3: "fungus's",
@@ -513,8 +496,7 @@ Question.create({unit_id: 8,
 									unit_position: 3})
 Question.create({unit_id: 8,
 									prompt: "Correct the following sentence:
-													'All members of the healthcare team must take precautions to ensure patient privacy and 
-													avoid potentially dangerous errors.",
+													'All members of the healthcare team must take precautions to ensure patient privacy and avoid potentially dangerous errors.",
 									answer1: "All members of the healthcare team must take precautions to ensure patient privacy, and
 														avoid potentially dangerous errors.",
 									answer2: "All members of the healthcare team must take precautions to ensure patient privacy; and
@@ -529,9 +511,7 @@ Question.create({unit_id: 8,
 									unit_position: 4})
 Question.create({unit_id: 9,
 									prompt: "Correct the sentence:
-													'There were a number of potential complications related to the patient's
-													medication regime, the team had to continuously monitor the patient's information
-													for signs of them.",
+													'There were a number of potential complications related to the patient's medication regime, the team had to continuously monitor the patient's information for signs of them.",
 									answer1: "There were a number of potential complications related to the patient's
 													medication regime, moreover; the team had to continuously monitor the patient's information
 													for signs of them.",
@@ -549,9 +529,7 @@ Question.create({unit_id: 9,
 									unit_position: 1})
 Question.create({unit_id: 9,
 									prompt: "Correct the sentence:
-													'In the initial examination, the doctor checked the patient's reflexes, pupillary
-													response, and pulse rate, recorded the patient's height and weight, and took 
-													blood and urine samples.'",
+													'In the initial examination, the doctor checked the patient's reflexes, pupillary response, and pulse rate, recorded the patient's height and weight, and took  blood and urine samples.'",
 									answer1: "In the initial examination, the doctor checked the patient's reflexes, pupillary
 													response, and pulse rate; recorded the patient's height and weight; and took blood
 													and urine samples.",
@@ -600,8 +578,7 @@ Question.create({unit_id: 9,
 									unit_position: 4})
 Question.create({unit_id: 10,
 									prompt: "Correct the following sentence:
-													'There are a number of potentical complications from diabetes, for example diabetic retinopathy, diabetic
-													neuropathy, and an almost doubled risk of cardiovascular disease.",
+													'There are a number of potentical complications from diabetes, for example diabetic retinopathy, diabetic neuropathy, and an almost doubled risk of cardiovascular disease.",
 									answer1: "There are a number of potential complications from diabetes. For example, diabetic retinopathy,
 														diabetic neuropathy, and a doubled risk of cardiovascular disease.",
 									answer2: "There are a number of potential complications from diabetes, diabetic retinopathy,
@@ -686,9 +663,7 @@ Question.create({unit_id: 11,
 									unit_position: 4})
 Question.create({unit_id: 12,
 									prompt: "Choose the sentence that best addresses the awkward construction in the following sentence:
-													'The system would provide patients access to health care records, allowing them to
-													schedule appointments, and give them a straight line of contact with their doctor, and
-													these benefits are a great improvement over the current system.",
+													'The system would provide patients access to health care records, allowing them to schedule appointments, and give them a straight line of contact with their doctor, and these benefits are a great improvement over the current system.",
 									answer1: "The system would provide patients access to health care records, allow them to
 														schedule appointments, and give them a straight line of contact with their doctor;
 														and these benefits are a great improvement over the current system.",
@@ -708,8 +683,7 @@ Question.create({unit_id: 12,
 									unit_position: 1})
 Question.create({unit_id: 12,
 									prompt: "Choose the sentence that best addresses the awkward construction in the following sentence:
-													'Attempts at decreases in usage of narcotic painkillers must be balanced with the need to
-													provide ample pain relief to the patient in pain. ",
+													'Attempts at decreases in usage of narcotic painkillers must be balanced with the need to provide ample pain relief to the patient in pain. ",
 									answer1: "Attempts to decrease the use of narcotic painkillers must be balanced with the need to
 														provide ample relief to the patient in pain.",
 									answer2: "Attempts at decreases in the usage of narcotic painkillers must be balanced with the need to
@@ -724,8 +698,7 @@ Question.create({unit_id: 12,
 									unit_position: 2})
 Question.create({unit_id: 12,
 									prompt: "Choose the sentence that best addresses the awkward construction in the following sentence:
-													'For a nurse to take on the responsibility of providing home-care for a patient is very demanding
-													on the nurse.",
+													'For a nurse to take on the responsibility of providing home-care for a patient is very demanding on the nurse.",
 									answer1: "For a nurse to take on the responsibility of providing home-care for a patient is very demanding.",
 									answer2: "For a nurse to take on the responsibility of providing home-care for a patient is demanding
 														on the nurse.",
